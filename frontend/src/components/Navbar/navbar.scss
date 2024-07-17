@@ -1,0 +1,10 @@
+@import '../../responsive.scss';
+a{
+    transition: all 0.5s ease-out;
+    &:hover{
+        scale: 1.05;
+    }
+    @include sm{
+        display: none;
+    }
+}
